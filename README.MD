@@ -2,6 +2,17 @@
 
 Cleans noisy sensor data
 
+----
+
+<p align="center">
+<img
+src="img/01.PNG"
+width = 450
+/>
+</p>
+
+----
+
  *  Category: Math
  *  HAL: No Hardware dependencies
  *  Status:  Node Defined, remote repo created, Node Code in progress 
