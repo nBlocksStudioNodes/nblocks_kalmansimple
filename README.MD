@@ -1,4 +1,4 @@
-# [KalmanSimple](https://github.com/nBlocksStudioNodes/nblocks_kalmansimple)
+# [KalmanSimple](https://github.com/nBlocksStudioNodes/nblocks_kalmansimple) [![](https://img.shields.io/badge/nBlocksStudioNodes-KalmanSimple-FF8833.svg)](https://github.com/nBlocksStudioNodes/nblocks_kalmansimple)
 
 Cleans noisy sensor data
 
