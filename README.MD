@@ -7,7 +7,8 @@ Cleans noisy sensor data
  *  Status:  Node Defined, remote repo created, Node Code in progress 
  *  Author: Nikolaos Chalikias
 
-## Implementation details Based on Denys Sene Arduino Library [SimpleKalmanFilter](https://www.arduino.cc/reference/en/libraries/simplekalmanfilter/) 
+## Implementation details
+Based on Denys Sene Arduino Library [SimpleKalmanFilter](https://www.arduino.cc/reference/en/libraries/simplekalmanfilter/) and mbed ported example [42_BasicKalmanFilterExample](https://github.com/The-101-project/42_BasicKalmanFilterExample)
 
 ## Inputs/Outputs
  *  float: Input
