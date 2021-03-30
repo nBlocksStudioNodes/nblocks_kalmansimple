@@ -4,7 +4,7 @@ Cleans noisy sensor data
 
  *  Category: Math
  *  HAL: No Hardware dependencies
- *  Status:  Node Definition in progress
+ *  Status:  Node Defined, remote repo created, Node Code in progress 
  *  Author: Nikolaos Chalikias
 
 ## Implementation details Based on Denys Sene Arduino Library [SimpleKalmanFilter](https://www.arduino.cc/reference/en/libraries/simplekalmanfilter/) 
