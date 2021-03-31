@@ -1,4 +1,4 @@
-#include "FlexCounter.h"
+#include "kalmansimple.h"
 #include "SimpleKalmanFilter.h"
 
 nBlock_KalmanSimple::nBlock_KalmanSimple(float e_mea, float e_est, float q):

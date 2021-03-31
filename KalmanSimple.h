@@ -2,6 +2,7 @@
 #define __NB_KALMANSIMPLE
 
 #include "nworkbench.h"
+#include "SimpleKalmanFilter.h"
 
 class nBlock_KalmanSimple: public nBlockSimpleNode<1> {
 
