@@ -1,25 +1,20 @@
-#ifndef __NB_FLEXCOUNTER
-#define __NB_FLEXCOUNTER
+#ifndef __NB_KALMANSIMPLE
+#define __NB_KALMANSIMPLE
 
 #include "nworkbench.h"
 
-class nBlock_FlexCounter: public nBlockSimpleNode<1> {
+class nBlock_KalmanSimple: public nBlockSimpleNode<1> {
 
 public:
-    nBlock_FlexCounter(uint32_t maxvalue, uint32_t minvalue, uint32_t step, uint32_t MODE);
+    nBlock_KalmanSimple(float e_mea, float e_est, float q);
     void triggerInput(nBlocks_Message message);
 	void endFrame(void);
+    uint32_t newValueFLAG;
 
-    uint32_t _count;
-	uint32_t mode;
-    uint32_t _step;
-    uint32_t _minvalue;
-    uint32_t _maxvalue;
-
-private:
-	
-	uint8_t  _direction;
-    uint32_t newValueFLAG;	
+private:	
+	float  _input;
+    float _estimated_value;
+    SimpleKalmanFilter _kalman;
 };
 
 #endif

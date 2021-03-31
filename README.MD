@@ -15,7 +15,8 @@ width = 450
 
  *  Category: Math
  *  HAL: No Hardware dependencies
- *  Status:  Node Defined, remote repo created, Node Code in progress 
+ *  Dev Status:  Node Defined, remote repo created, Node Code in progress
+ *  Tested with: 
  *  Author: Nikolaos Chalikias
 
 ## Implementation details
@@ -33,8 +34,9 @@ Based on Denys Sene Arduino Library [SimpleKalmanFilter](https://www.ardui
 
 
 
-## Example:
-[Ticker]-->[ADC]-->[KalmanBasic]-->[StringSerial]
+## Examples:
+[Ticker]-->[ADC]-->[KalmanBasic]-->[StringSerial]  
 
+[42_BasicKalmanFilterExample](https://github.com/The-101-project/42_BasicKalmanFilterExample)
 
 
