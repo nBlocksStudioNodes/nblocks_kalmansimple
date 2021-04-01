@@ -4,7 +4,7 @@
 #include "nworkbench.h"
 #include "SimpleKalmanFilter.h"
 
-class nBlock_KalmanSimple: public nBlockSimpleNode<1> {
+class nBlock_KalmanSimple: public nBlockSimpleNode<0> {
 
 public:
     nBlock_KalmanSimple(float e_mea, float e_est, float q);
