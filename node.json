@@ -1,0 +1,49 @@
+{
+    "category": "Math",
+    "name": "KalmanSimple",
+    "inputs": 1,
+    "outputs": 1,
+    "parameters": [
+        {
+            "name": "e_mea",
+            "type": "raw",
+            "default": "2.0",
+            "options": [
+                ""
+            ],
+            "value": "2.0"
+        },
+        {
+            "name": "e_est",
+            "type": "raw",
+            "default": "2.0",
+            "options": [
+                ""
+            ],
+            "value": "2.0"
+        },
+        {
+            "name": "q",
+            "type": "raw",
+            "default": "0.01",
+            "options": [
+                ""
+            ],
+            "value": "0.01"
+        }
+    ],
+    "labels": {
+        "input": [],
+        "output": []
+    },
+    "schematic_pins": {
+        "inputs": [
+            1
+        ],
+        "outputs": [
+            2
+        ]
+    },
+    "repository": "https://github.com/nBlocksStudioNodes/nblocks_kalmansimple",
+    "revision": ""
+}
